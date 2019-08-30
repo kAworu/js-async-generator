@@ -1,0 +1,31 @@
+{
+  "name": "js-async-generator-example",
+  "version": "1.0.0",
+  "description": "A simple NodeJS example using async generators",
+  "main": "index.js",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "parse-link-header": "^1.0.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kAworu/js-async-generator.git"
+  },
+  "keywords": [
+    "tutorial",
+    "async",
+    "generator"
+  ],
+  "author": "Alexandre Perrin",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/kAworu/js-async-generator/issues"
+  },
+  "homepage": "https://github.com/kAworu/js-async-generator#readme"
+}
