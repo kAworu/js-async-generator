@@ -7,6 +7,7 @@ const debug   = require('debug')('search');
 const parse   = require('parse-link-header');
 const request = require('request-promise-native');
 
+
 // GitHub code search result generator.
 async function *search(q) {
     const get = request.defaults({
@@ -46,6 +47,7 @@ async function *search(q) {
         }
     }
 }
+
 
 // await may only be used from inside an async function.
 async function main() {
