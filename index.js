@@ -34,7 +34,7 @@ async function *search(q) {
         }
 
         debug(`yielding ${rsp.body.items.length} items`);
-        yield *rsp.body.items;
+        yield* rsp.body.items;
 
         const link = parse(rsp.headers.link);
         if (link && link.next) {
