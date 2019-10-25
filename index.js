@@ -54,7 +54,7 @@ async function main() {
     // You may change the search query, but beware of GitHub search rate limit
     // https://developer.github.com/v3/search/#rate-limit
     for await (const { score, name, repository } of search('OpenBSD+user:kAworu')) {
-        console.log(`-> ${score.toFixed(2)}: ${name} (in ${repository.full_name})`);
+        console.log(`→ ${score.toFixed(2)}: ${name} (in ${repository.full_name})`);
     }
 }
 
